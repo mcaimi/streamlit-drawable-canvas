@@ -1,23 +1,8 @@
 # Streamlit - Drawable Canvas
 
----
-
-This project is [unmaintained](https://www.youtube.com/watch?v=1RFJF_ETpLk). 
-
- Please add a thumbs up [HERE](https://github.com/streamlit/streamlit/issues/875) if you wish to see a native implementation.
-
----
-
 Streamlit component which provides a sketching canvas using [Fabric.js](http://fabricjs.com/).
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/andfanilo/streamlit-drawable-canvas-demo/master/app.py)
-
-[![PyPI](https://img.shields.io/pypi/v/streamlit-drawable-canvas)](https://pypi.org/project/streamlit-drawable-canvas/)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/streamlit-drawable-canvas)](https://pypi.org/project/streamlit-drawable-canvas/)
-
-<a href="https://www.buymeacoffee.com/andfanilo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="180"></a>
-
-![](./img/demo.gif)
+This is a fork of this [original repo](https://github.com/andfanilo/streamlit-drawable-canvas), which is now unmanintained
 
 ## Features
 
@@ -32,7 +17,7 @@ Streamlit component which provides a sketching canvas using [Fabric.js](http://f
 ## Installation
 
 ```shell script
-pip install streamlit-drawable-canvas
+uv add streamlit-drawable-canvas
 ```
 
 ## Example Usage
