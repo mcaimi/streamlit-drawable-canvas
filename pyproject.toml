@@ -1,0 +1,28 @@
+[build-system]
+requires = ["uv_build >= 0.9.11, <0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "streamlit-drawable-canvas"
+version = "0.9.4"
+authors = [
+  { name="mcaimi", email="mcaimi@redhat.com" },
+]
+description = "A Streamlit custom component for a free drawing canvas using Fabric.js. Forked from: https://github.com/andfanilo/streamlit-drawable-canvas"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "numpy>=2.3.5",
+    "pillow>=12.0.0",
+    "streamlit>=1.51.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/mcaimi/streamlit-drawable-canvas"
+Issues = "https://github.com/mcaimi/streamlit-drawable-canvas/issues"
