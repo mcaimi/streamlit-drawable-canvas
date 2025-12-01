@@ -24,9 +24,6 @@ test-reports
 # Test fixtures
 cffi_bin
 
-# Pyenv Stuff
-.python-version
-
 ########################################################################
 # OSX - https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 ########################################################################
